@@ -160,7 +160,7 @@ const CardDetails = () => {
             <FollowUp />
           </div>
           {/*Navigates the current section displayed on screen*/}
-          <div className="navigation sticky top-12 z-50 hidden lg:block h-screen">
+          <div className="navigation sticky top-12 z-50 hidden lg:block h-[80vh]">
             <ul className="">
               <li
                 className={`${

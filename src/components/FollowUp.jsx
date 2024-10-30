@@ -5,8 +5,8 @@ const FollowUp = () => {
   return (
     <div className="fixed bottom-20 left-0 md:left-[unset] md:bottom-7 mx-5 w-[90%] md:w-[50%] bg-highlight p-1 h-fit  rounded-full overflow-hidden">
     <div className="bg-white h-fit w-full border-[2px] border-[#d1d1cc] rounded-full px-4 py-2 flex gap-3 items-center overflow-hidden">
-      <textarea
-        className="outline-none border-none w-full"
+      <textarea 
+        className="outline-none border-none w-full resize-none"
         name="askFollowUp"
         rows={1}
         id="askfollowup"
